@@ -1,0 +1,277 @@
+/*version bureau*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    max-width: 1200px;
+    background-color: black;
+}
+
+header {
+    display: flex;
+}
+
+p {
+    padding: 5px;
+}
+
+h1 span {
+    color: #51C0D2;
+}
+
+h2 {
+    margin-bottom: 2px;
+}
+
+#header_left {
+    display: flex;
+    background-color: #51C0D2;
+    justify-content: center;
+    widows: 245px;
+}
+
+#header_right {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 666px;
+}
+
+#titre {
+    display: flex;
+    flex-direction: column;
+}
+
+#underline {
+    border-top: solid 2px #51C0D2;
+    width: 90px;
+}
+
+#mini {
+    border-radius: 50%;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #6C6F6F;
+}
+
+#corps {
+    display: flex;
+}
+
+
+/*section gauche*/
+
+#corps_left {
+    background-color: #51C0D2;
+    width: 245px;
+}
+
+#corps_left h3 {
+    text-align: center;
+    background-color: black;
+    color: #51C0D2;
+    padding: 2% 0% 2% 0%;
+    margin-top: 0px;
+}
+
+#address {
+    padding: 10% 15% 15% 15%;
+}
+
+.info {
+    padding: 10% 15% 20% 15%;
+}
+
+.logo1 {
+    width: 50px;
+    height: 50px;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+#information {
+    height: 400px;
+}
+
+#loisirs {
+    height: 200px;
+}
+
+
+/*section droite*/
+
+.dot {
+    color: #51C0D2;
+    margin-right: 30px;
+}
+
+.dot1 {
+    color: #51C0D2;
+    margin-right: 20px;
+}
+
+#corps_right {
+    background-color: white;
+    width: 70%;
+    padding-right: 5px;
+    padding-left: 60px;
+}
+
+#corps_right h3 {
+    border-bottom: solid #51C0D2 2px;
+    padding-bottom: 0px;
+    width: 90%;
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+#corps_right i {
+    color: #51C0D2;
+}
+
+#icone1 {
+    margin-right: 20px;
+}
+
+#icone2 {
+    margin-right: 28px;
+}
+
+.souligne {
+    border-bottom: solid;
+    border-color: #479990;
+    margin-left: 200px;
+}
+
+.ajustement {
+    display: flex;
+    padding: 10px;
+}
+
+.date {
+    margin-right: 5px;
+    width: 40%;
+    font-weight: bold;
+}
+
+.where {
+    margin-top: 3px;
+    width: 300px;
+}
+
+.where h4 {
+    margin-top: 0px;
+}
+
+
+/*recomandation*/
+
+#recommandation {
+    margin-bottom: 20px;
+}
+
+.bloc_robert {
+    display: table-cell;
+    padding-left: 90px;
+}
+
+.bloc_vera {
+    display: table-cell;
+}
+
+
+/*version tablette et mobile*/
+
+@media all and (max-width:768px) {
+    header {
+        flex-direction: column;
+    }
+    #header_left {
+        width: 820px;
+    }
+    #header_right {
+        width: 772px;
+        text-align: center;
+        padding: 3%;
+        margin: 0%;
+    }
+    #titre {
+        padding-left: 20px;
+        text-align: left;
+        margin: 0px;
+    }
+    #corps {
+        flex-direction: column-reverse;
+    }
+    #corps_left {
+        width: 820px;
+    }
+    #corps_right {
+        width: 100%;
+        padding: 25px;
+    }
+    #address {
+        text-align: center;
+        padding: 2%;
+    }
+    #info {
+        padding: 2%;
+    }
+    .ajustement {
+        justify-content: center;
+        padding: 0px;
+        margin-top: 10px;
+    }
+    .where {
+        padding: 0% 5% 0% 5%;
+    }
+    #bloc_recommandation {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .logo1 {
+        margin-left: 155px;
+    }
+}
+
+@media all and (max-width: 460px) {
+    #header_left {
+        width: 570px;
+    }
+    #header_right {
+        padding: 0px;
+        width: 570px;
+    }
+    #corps_left {
+        width: 570px;
+    }
+    #corps_right {
+        margin-left: 0%;
+        width: 520px;
+    }
+    #corps_right h3 {
+        font-size: 1.15em;
+    }
+    .année {
+        width: 60%;
+    }
+    .ajustement {
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .where {
+        padding: 3% 0% 0% 0%;
+        margin-bottom: 10px;
+    }
+    #bloc_recommandation {
+        flex-direction: column;
+        margin-left: 2px;
+    }
+    .logo1 {
+        margin-left: 95px;
+    }
+}
