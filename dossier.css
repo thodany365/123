@@ -64,12 +64,12 @@ h2 {
 
 /*section gauche*/
 
-#corps_left {
+.corps_left {
     background-color: #51C0D2;
     width: 245px;
 }
 
-#corps_left h3 {
+.corps_left h3 {
     text-align: center;
     background-color: black;
     color: #51C0D2;
@@ -113,30 +113,30 @@ h2 {
     margin-right: 20px;
 }
 
-#corps_right {
+.corps_right {
     background-color: white;
     width: 70%;
     padding-right: 5px;
     padding-left: 60px;
 }
 
-#corps_right h3 {
+.corps_right h3 {
     border-bottom: solid #51C0D2 2px;
     padding-bottom: 0px;
     width: 90%;
     margin-left: 10px;
-    font-size: 1.5em;
+    font-size: 25px;
 }
 
-#corps_right i {
+.corps_right i {
     color: #51C0D2;
 }
 
-#icone1 {
+.icone1 {
     margin-right: 20px;
 }
 
-#icone2 {
+.icone2 {
     margin-right: 28px;
 }
 
@@ -206,10 +206,10 @@ h2 {
     #corps {
         flex-direction: column-reverse;
     }
-    #corps_left {
+    .corps_left {
         width: 820px;
     }
-    #corps_right {
+    .corps_right {
         width: 100%;
         padding: 25px;
     }
@@ -227,6 +227,7 @@ h2 {
     }
     .where {
         padding: 0% 5% 0% 5%;
+        font-size: 25px;
     }
     #bloc_recommandation {
         margin-left: 20px;
@@ -234,6 +235,28 @@ h2 {
     }
     .logo1 {
         margin-left: 155px;
+    }
+    .date {
+        font-size: 25px;
+    }
+    .bloc_robert {
+        display: table-cell;
+        padding-left: 90px;
+        font-size: 25px;
+    }
+    .bloc_vera {
+        display: table-cell;
+        font-size: 25px;
+    }
+    #address {
+        font-size: 30px;
+    }
+    .info {
+        padding: 5% 10% 10% 15%;
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 30px;
     }
 }
 
@@ -245,15 +268,15 @@ h2 {
         padding: 0px;
         width: 570px;
     }
-    #corps_left {
+    .corps_left {
         width: 570px;
     }
-    #corps_right {
+    .corps_right {
         margin-left: 0%;
         width: 520px;
     }
-    #corps_right h3 {
-        font-size: 1.15em;
+    .corps_right h3 {
+        font-size: 25px;
     }
     .année {
         width: 60%;
@@ -266,6 +289,7 @@ h2 {
     .where {
         padding: 3% 0% 0% 0%;
         margin-bottom: 10px;
+        font-size: 25px;
     }
     #bloc_recommandation {
         flex-direction: column;
@@ -273,5 +297,23 @@ h2 {
     }
     .logo1 {
         margin-left: 95px;
+    }
+    .date {
+        font-size: 25px;
+    }
+    .bloc_robert {
+        display: table-cell;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .bloc_vera {
+        display: table-cell;
+        font-size: 20px;
+    }
+    #address {
+        font-size: 25px;
+    }
+    .info {
+        font-size: 22px;
     }
 }
