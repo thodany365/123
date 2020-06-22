@@ -5,6 +5,7 @@ header{
 }
 body{
     font-family: cursive;
+    width: 100%;
 }
 
 /* titre THO DANY */
@@ -40,11 +41,11 @@ h2{
 
 
 #header_right{
-    width: 80%;
+    width: 70%;
     height: 190px;    
 }
 #corps_right{
-     width: 80%;  
+     width: 70%;  
 }
 #corps_right h3 {
     border-bottom: solid #51C0D2 2px;
@@ -91,7 +92,7 @@ main{
    
     display: flex;
 }
- #header_left{
+#header_left{
     
      width: 30%;
      height: 190px;
@@ -199,10 +200,10 @@ main{
         text-align: center;
     }
  .date,h4{
-        font-size: 20px;
+        font-size: 15px;
     }
-  P{
-        font-size: 20px;
+  p{
+        font-size: 15px;
     }
  .info,#loisirs{
         padding-bottom: 15px;
