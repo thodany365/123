@@ -64,7 +64,9 @@ h2 {
 h3{
     margin-bottom: 0px;
 }
-
+p{
+    margin-top: 0px;
+}
 
 .ajustement {
     display : flex;
@@ -73,7 +75,7 @@ h3{
 
 }
 #experiences {
-margin-right : 0px ;
+    margin-right : 0px ;
 
 }
 
@@ -201,36 +203,33 @@ h4 {
 		width: 100%;
 	    flex-direction: column;
 	}
-	#contact div {
-    margin-left: auto;
-    text-align: center;
-	}
-
-	#corps{
+  #contact div {
+       margin-left: auto;
+       text-align: center;
+    }
+    
+  #corps{
 		width: 100%;
-	}
-
-	#corps_left {
+    }
+    
+  #corps_left {
        width : 100%;  
     }
 
- figure{
+  figure{
  		text-align: center;
     }
- h1 {
+  h1 {
         text-align:center;
     }
  .date,h4 {
         font-size : 15px ;
-     }
-  p {
-        font-size : 20px ;
-    }
+    }  
+
  .info,#loisirs {
         margin-bottom : 15px ;
-        margin-top : 0px ;
-            
-     }
+        margin-top : 0px ;            
+    }
  #address {
         text-align : center;
         margin-left: 0px;
@@ -245,14 +244,12 @@ h4 {
         width : 100% ;
         margin-right: 8px ;
     }
- .bloc_robert {
-        display : table;
+ .bloc_robert {        
         padding-right : 150px ;
-        padding-top : 20px ;
+        padding-top : 0px ;
         font-size : 20px ;
     }
  .bloc_vera {
-        display : table;
         padding-right: 75px ;
         font-size : 20px ;
     }
@@ -278,8 +275,8 @@ h4 {
        text-align : center;
     }
   h2 {
-           font-size: 18px;
-    margin: auto;
+       font-size: 18px;
+       margin: auto;
     }
 
    #adresse {
@@ -287,7 +284,7 @@ h4 {
     }
  
   .logo1 {
-       margin-right : 15px ;
+       margin-right : 20px ;
    }
  .bloc_recommandation{
      text-align: center;
@@ -300,7 +297,7 @@ h4 {
  .bloc_robert {
       margin-left: 0px ;
       padding-right: 0px;
-      margin-top: 0px ;
+      margin-top: 15px ;
       margin-bottom: 30px;
       font-size: 15px;
     }
@@ -332,7 +329,7 @@ h4 {
      margin-bottom: 15px;
     }
  .dot{
-     margin-left: 80px;
+     margin-left: 48%;
      margin-bottom: 15px;
     }
  #formation,#expériences {
