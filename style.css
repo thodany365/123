@@ -8,7 +8,7 @@ body{
     background-color: black;
     display: flex;
     flex-direction: row;
-    font-size: "Roboto";
+    font-family: "Roboto";
     overflow-x: hidden;
 }
 
