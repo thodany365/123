@@ -1,347 +1,335 @@
 /* version bureau */
 
-body{
-	width: 800px;
-	height: auto;
-	margin: 0 auto;
-	padding: 0;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    font-family: "Roboto";
-    overflow-x: hidden;
+body {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto";
+  overflow-x: hidden;
 }
 
-#corps{
-	background-color: white;
-	width: 70%;
+#corps {
+  background-color: white;
+  width: 70%;
 }
 /* titre THO DANY */
 
 h1 {
-    font-size : 30px ;
-    margin-left: 20px ;
+  font-size: 30px;
+  margin-left: 20px;
 }
-h1  span {
-    color : #51C0D2 ;
-}
-
-.mesTitres{
-    border-bottom: 2px solid #51C0D2;
+h1 span {
+  color: #51c0d2;
 }
 
-#contact div{
-	margin-left: 13%;
+.mesTitres {
+  border-bottom: 2px solid #51c0d2;
 }
 
+#contact div {
+  margin-left: 13%;
+}
 
 /* titre developpeur web */
 
 #titre {
-    display : flex;
-    flex-direction : column;  
+  display: flex;
+  flex-direction: column;
 }
 h2 {
-    margin-top : 2px ;
-    margin-bottom: 4px;
-    margin-left: 20px;
-    font-size : 20px ;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  margin-left: 20px;
+  font-size: 20px;
 }
 .underline {
-    border-bottom : solid 2px  #51C0D2 ;
+  border-bottom: solid 2px #51c0d2;
 }
-
 
 /*section droite*/
 
 .underline1 {
-    border-bottom : solid 2px  #51C0D2 ;
-    width : 90% ;
-    margin-left : 27px ;
-    margin-bottom: 20px; 
-    
+  border-bottom: solid 2px #51c0d2;
+  width: 90%;
+  margin-left: 27px;
+  margin-bottom: 20px;
 }
-h3{
-    margin-bottom: 0px;
+h3 {
+  margin-bottom: 0px;
 }
-p{
-    margin-top: 0px;
+p {
+  margin-top: 0px;
 }
 
 .ajustement {
-    display : flex;
-    margin-left : 15px ;   
-    margin-top: 6%;
-
+  display: flex;
+  margin-left: 15px;
+  margin-top: 6%;
 }
 #experiences {
-    margin-right : 0px ;
-
+  margin-right: 0px;
 }
 
 #formation {
-    margin-right : 20px ;
-    margin-top: 75px;  
+  margin-right: 20px;
+  margin-top: 75px;
 }
 .date {
-    margin-right : 60px ;
-    margin-left: 26px;
-    width :100px ;
-    font-weight : bold;
-    font-size : 15px ;
-   
+  margin-right: 60px;
+  margin-left: 26px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 15px;
 }
 .where {
-    width: 70% ;
-    
+  width: 70%;
 }
 h4 {
-    margin-top : 0px ;
+  margin-top: 0px;
 }
 
 /* section gauche */
 
 #photo {
-    border-radius : 50% ;
-    width : 150px;
-    margin-bottom: 15px;
-    height: 150px;
-    margin-top:10px;
+  border-radius: 50%;
+  width: 150px;
+  margin-bottom: 15px;
+  height: 150px;
+  margin-top: 10px;
 }
 
 #corps_left {
-    width: 30% ;
-    background-color : #51C0D2 ;
+  width: 30%;
+  background-color: #51c0d2;
 }
 
 .logo1 {
-    width : 40px ;
-    height : 40px ;
-    margin-left : 12% ;
-    margin-top : 10px ;
-    margin-bottom : 10px ;
+  width: 40px;
+  height: 40px;
+  margin-left: 12%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .dot {
-    color : #51C0D2 ;
-    margin-right : 5px ;
-    margin-left : 10px ;
-    display : flex;
+  color: #51c0d2;
+  margin-right: 5px;
+  margin-left: 10px;
+  display: flex;
 }
 
 .dot1 {
-    color : #51C0D2 ;
-    margin-left : 6px ;
-    display : flex;
+  color: #51c0d2;
+  margin-left: 6px;
+  display: flex;
 }
-#corps_left  h3 {
-    text-align : center;
-    background-color : black;
-    color : #51C0D2 ;
-    margin-top : 0px ;
-    font-size : 20px ;
+#corps_left h3 {
+  text-align: center;
+  background-color: black;
+  color: #51c0d2;
+  margin-top: 0px;
+  font-size: 20px;
 }
 
 #address {
-    text-align: justify;
-    font-size : 20px ;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin-left: 35px;
-    
+  text-align: justify;
+  font-size: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 35px;
 }
 
 .info {
-    margin : 25%  15%  50%  15% ;
-    font-size: 20px;
+  margin: 25% 15% 50% 15%;
+  font-size: 20px;
 }
 #loisirs {
-    width: 100% ;
-    margin : 0% ;
+  width: 100%;
+  margin: 0%;
 }
-.icone1{
-    margin-right: 10px;
-    margin-left: 10px;
+.icone1 {
+  margin-right: 10px;
+  margin-left: 10px;
 }
-.icone2{
-    margin-right: 15px;
-    margin-left: 12px; 
+.icone2 {
+  margin-right: 15px;
+  margin-left: 12px;
 }
-.icone3{
-    margin-right: 10px;
-    margin-left: 12px;
+.icone3 {
+  margin-right: 10px;
+  margin-left: 12px;
 }
 
 /*recomandation*/
 
 #recommandation {
-    margin-bottom : 20px ;
-    margin-top : 50px ;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
-.bloc_recommandation{
-    display: flex;
+.bloc_recommandation {
+  display: flex;
 }
 .bloc_robert {
-    padding-right : 62px ;
-    padding-bottom : 20px ;
-    font-size : 15px ;
+  padding-right: 62px;
+  padding-bottom: 20px;
+  font-size: 15px;
 }
 
 .bloc_vera {
-    padding-right : 100px ;
-    margin-left: 60px ;
-    font-size : 15px ;
+  padding-right: 100px;
+  margin-left: 60px;
+  font-size: 15px;
 }
-
-
 
 /* version tablette et mobile */
 
-
-@media all and ( max-width : 800px ) {
-	body{
-		width: 100%;
-	    flex-direction: column;
-	}
+@media all and (max-width: 800px) {
+  body {
+    width: 100%;
+    flex-direction: column;
+  }
   #contact div {
-       margin-left: auto;
-       text-align: center;
-    }
-    
-  #corps{
-		width: 100%;
-    }
-    
+    margin-left: auto;
+    text-align: center;
+  }
+
+  #corps {
+    width: 100%;
+  }
+
   #corps_left {
-       width : 100%;  
-    }
+    width: 100%;
+  }
 
-  figure{
- 		text-align: center;
-    }
+  figure {
+    text-align: center;
+  }
   h1 {
-        text-align:center;
-    }
- .date,h4 {
-        font-size : 15px ;
-    }  
+    text-align: center;
+  }
+  .date,
+  h4 {
+    font-size: 15px;
+  }
 
- .info,#loisirs {
-        margin-bottom : 15px ;
-        margin-top : 0px ;            
-    }
- #address {
-        text-align : center;
-        margin-left: 0px;
-        padding-bottom : 15px ;
-        padding-top : 0px ;
-        font-size : 20px ;
-    }
- .logo1 {
-        margin-right : 104px ;  
-    }
- #corps_right {
-        width : 100% ;
-        margin-right: 8px ;
-    }
- .bloc_robert {        
-        padding-right : 150px ;
-        padding-top : 0px ;
-        font-size : 20px ;
-    }
- .bloc_vera {
-        padding-right: 75px ;
-        font-size : 20px ;
-    }
-
-}
-
-@media all and ( max-width : 460px ) {
- .underline1 {
-        border-bottom : solid 2px  #51C0D2 ;
-        width : 250px ;
-        margin-left : 27px ;
-        margin-bottom: 10px;  
-    }
-   
-   #corps {
-        width: auto;
-    
-    }
- 
-  h1 {
-       font-size: 24px ;
-       margin-right: 25px;
-       text-align : center;
-    }
-  h2 {
-       font-size: 18px;
-       margin: auto;
-    }
-
-   #adresse {
-     text-align : center;
-    }
- 
+  .info,
+  #loisirs {
+    margin-bottom: 15px;
+    margin-top: 0px;
+  }
+  #address {
+    text-align: center;
+    margin-left: 0px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    font-size: 20px;
+  }
   .logo1 {
-       margin-right : 20px ;
-   }
- .bloc_recommandation{
-     text-align: center;
-     display: flex;
-     flex-direction: column;
-    }
- #recommandation {
-      margin-top: 0px ;
-    }
- .bloc_robert {
-      margin-left: 0px ;
-      padding-right: 0px;
-      margin-top: 15px ;
-      margin-bottom: 30px;
-      font-size: 15px;
-    }
- .bloc_vera {
-      margin-right: 0px;
-      margin-top: 15px;
-      font-size: 15px ;
-    }
- #corps_right h3{
-     margin-bottom: 0px;
-     margin-left: 60px;
-     width: 160px;
-     
-    }
- #corps_left {
-     width: 100% ;
-    }
- #corps_right {
-     width : 100% ;
-    }
- .ajustement {
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      margin-left: auto;
-    }
- .dot1{
- 	margin:auto;
-     margin-bottom: 15px;
-    }
- .dot{
-     margin-left: 48%;
-     margin-bottom: 15px;
-    }
- #formation,#expériences {
-      margin-right : 0px ;
-    }
- 
- .date, .where{
-      margin: auto;
-    }
-   .mesTitres{
-   	text-align: center;
-   }
-
+    margin-right: 104px;
+  }
+  #corps_right {
+    width: 100%;
+    margin-right: 8px;
+  }
+  .bloc_robert {
+    padding-right: 150px;
+    padding-top: 0px;
+    font-size: 20px;
+  }
+  .bloc_vera {
+    padding-right: 75px;
+    font-size: 20px;
+  }
 }
 
+@media all and (max-width: 460px) {
+  .underline1 {
+    border-bottom: solid 2px #51c0d2;
+    width: 250px;
+    margin-left: 27px;
+    margin-bottom: 10px;
+  }
+
+  #corps {
+    width: auto;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-right: 25px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 18px;
+    margin: auto;
+  }
+
+  #adresse {
+    text-align: center;
+  }
+
+  .logo1 {
+    margin-right: 20px;
+  }
+  .bloc_recommandation {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #recommandation {
+    margin-top: 0px;
+  }
+  .bloc_robert {
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+  .bloc_vera {
+    margin-right: 0px;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  #corps_right h3 {
+    margin-bottom: 0px;
+    margin-left: 60px;
+    width: 160px;
+  }
+  #corps_left {
+    width: 100%;
+  }
+  #corps_right {
+    width: 100%;
+  }
+  .ajustement {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+  }
+  .dot1 {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .dot {
+    margin-left: 48%;
+    margin-bottom: 15px;
+  }
+  #formation,
+  #expériences {
+    margin-right: 0px;
+  }
+
+  .date,
+  .where {
+    margin: auto;
+  }
+  .mesTitres {
+    text-align: center;
+  }
+}
